@@ -10,7 +10,7 @@ outputtxt_path = "PyPolloutput.txt"
 
 # Opens the csv file
 
-with open("Resources/election_data.csv") as csvfile:
+with open(csvpath) as csvfile:
 
     csvreader = csv.reader(csvfile, delimiter=",")
 
